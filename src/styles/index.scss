@@ -1,0 +1,29 @@
+@import "bootstrap";
+
+.blog-list {
+  &-item {
+    display:flex;
+    border: 1px solid #eee;
+    padding: 30px;
+    width: 60%;
+    margin: 15px auto;
+
+    &-author {
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    &-image {
+      width: 35%;
+
+      img {
+        max-width: 100%;
+      }
+    }
+
+    &-content {
+      width: 65%;
+      padding-left: 15px;
+    }
+  }
+}
